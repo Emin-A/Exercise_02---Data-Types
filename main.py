@@ -6,8 +6,8 @@ two_digit_number = input("Type a two digit number: ")
 # Write the code here:
 first_digit = two_digit_number[0]
 second_digit = two_digit_number[1]
+total = int(first_digit) + int(second_digit)
+print(total)
 
-print(first_digit)
-print(second_digit)
 
 
